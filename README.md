@@ -39,6 +39,18 @@ Python would not let to import Seaborn.
 
 ![Modules](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/modules.PNG)
 
+After that iris data set was imported into the system.
+First 10 rows of the data set looks as below:
+
+![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
+
+To better understand the data we can check how many examples of data per class there is.
+![Number of Instances](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/NoI.PNG)
+
+Highlight the information about the data using describe funciton in python.
+![Describe Attributes](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/attrdescr.PNG)
+
+
 
 ## References
 
