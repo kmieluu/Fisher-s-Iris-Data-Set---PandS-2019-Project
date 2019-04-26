@@ -34,7 +34,9 @@ The data set is showing multiple outcomes containing of variations received from
 
 ## Data Investigation
 
-Import required modules into Python did not come without any trouble. Seaborn does not want to be imported and is very persistent about it. 
+Import required modules into Python did not come without any trouble.
+Python would not let to import Seaborn.
+
 ![Modules](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/modules.PNG)
 
 
