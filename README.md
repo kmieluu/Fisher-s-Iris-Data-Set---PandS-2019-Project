@@ -1,6 +1,6 @@
 # Fisher's Iris data set
 ## This is repository that contains my solution to the Fisher's Iris Data Set 
-## [Instructions here](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
+## [*Download Instructions by clicking here*](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
 
 ## How to download this depository  
 
