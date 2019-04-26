@@ -1,6 +1,5 @@
 # Fisher's Iris data set
-## This repository contains my solution to the Fisher's Iris Data Set
-## [_See here for the instructions_] https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf
+## This repository contains my solution to the Fisher's Iris Data Set [Instructions here](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
 
 ![IrisTypes](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Capture.PNG)
 ## How to download this depository  
@@ -28,3 +27,4 @@
 
 - [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Iris)
 - [kaggle.com](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis)
+- [fly4free] http://www.fly4free.ie
