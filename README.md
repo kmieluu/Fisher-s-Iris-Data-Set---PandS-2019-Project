@@ -24,7 +24,6 @@ The Iris data set is a database that was originally created by R.A.Fisher in 193
     •	The width of sepals [cm]
     •	The length of petals [cm]
     •	The width of petals [cm]
-<br>
 
 ### Class:
     - Iris Setosa
@@ -33,7 +32,10 @@ The Iris data set is a database that was originally created by R.A.Fisher in 193
 
 The data set is showing multiple outcomes containing of variations received from combinations of above outputs.
 
+## Data Investigation
 
+Import required modules into Python did not come without any trouble. Seaborn does not want to be imported and is very persistent about it. 
+![Modules](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/modules.PNG)
 
 
 ## References
