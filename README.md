@@ -15,6 +15,16 @@
 3. Make sure you are in the right directory
 4. Run python code by typing iris.py
 
+
+The Iris Data Set data set is showing multiple outcomes containing of variations received from combinations of sepals and petals of Irises: Setosa, Versicolor and Virginica.
+
+
+### Class:
+    - Iris Setosa
+    - Iris Versicolour
+    - Iris Virginica
+
+
 ![KWIATKI](https://user-images.githubusercontent.com/47505151/56806631-625ec480-6824-11e9-9108-665023156900.PNG)
 
 The Iris data set is a database that was originally created by R.A.Fisher in 1936 paper called *The use of multiple measurments in taxonomic problems*. It contains 3 types of Iris flowers with their multiple collection of 4 attributes.
@@ -24,13 +34,6 @@ The Iris data set is a database that was originally created by R.A.Fisher in 193
     •	The width of sepals [cm]
     •	The length of petals [cm]
     •	The width of petals [cm]
-
-### Class:
-    - Iris Setosa
-    - Iris Versicolour
-    - Iris Virginica
-
-The data set is showing multiple outcomes containing of variations received from combinations of above outputs.
 
 ## Data Investigation
 
