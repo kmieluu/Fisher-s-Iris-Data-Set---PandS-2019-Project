@@ -38,7 +38,15 @@ plt.show()
 
 
 
+csv.plot.scatter(x="sepallength", y="sepalwidth")
+plt.show()
+
+
+csv.plot.scatter(x="petallength", y="petalwidth")
+plt.show()
+
 #Multivariate scatter plot matrix
+
 
 #Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
 # and the virginica data points in blue.
