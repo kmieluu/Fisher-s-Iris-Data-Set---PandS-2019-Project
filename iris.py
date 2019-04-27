@@ -47,6 +47,29 @@ plt.show()
 
 #Multivariate scatter plot matrix
 
+sns.set(style='darkgrid')
+sns.distplot(setosa['sepallength'], color='b', kde=False, label='Setosa')
+sns.distplot(versicolor['sepallength'], color='y', kde=False, label='Versicolor')
+sns.distplot(virginica['sepallength'], color='g', kde=False, label='Virginica')
+plt.legend()
+plt.title('Quantity of Sepal Lengths')
+plt.xlabel('Sepal Length (cm)')  
+plt.ylabel('Quantity')
+plt.show()
+
+
+sns.set(style='darkgrid')
+sns.distplot(setosa['petallength'], color='b', kde=False, label='Setosa')
+sns.distplot(versicolor['petallength'], color='y', kde=False, label='Versicolor')
+sns.distplot(virginica['petallength'], color='g', kde=False, label='Virginica')
+plt.legend()
+plt.title('Quantity of Petal Lengths')
+plt.xlabel('Petal Length [cm]')  
+plt.ylabel('Quantity')
+plt.show()
+
+
+
 
 #Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
 # and the virginica data points in blue.

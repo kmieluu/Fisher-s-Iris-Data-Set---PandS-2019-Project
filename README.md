@@ -47,7 +47,7 @@ Check first 10 rows of the data set:
 
 ![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
 
-Looking at length and width of all the data 
+Looking at length and width of all the data we can see 150 dots. Petal is smaller then settal and more condensed. Sepal can vary more.
 
 ![all data](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/petalsetallengthgraph.png)
 
