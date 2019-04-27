@@ -49,6 +49,8 @@ Check first 10 rows of the data set:
 
 Looking at length and width of all the data 
 
+![all data](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/petalsetallengthgraph.png)
+
 Class distribution.
 To better understand the data we can check how many examples of data per class there is.
 <br>
