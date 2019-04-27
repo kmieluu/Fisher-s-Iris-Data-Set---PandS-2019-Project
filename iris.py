@@ -68,6 +68,7 @@ plt.xlabel('Petal Length [cm]')
 plt.ylabel('Quantity')
 plt.show()
 
+![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
 
 
 

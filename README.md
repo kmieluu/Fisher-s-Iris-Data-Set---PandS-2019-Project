@@ -80,6 +80,7 @@ Please see the histagram view on the same univariate dataset below:
 
 ### Multivariate Plots
 Please see the relationships between variables in below graph:
+![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
 
 
 
