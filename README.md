@@ -47,13 +47,39 @@ First 10 rows of the data set looks as below:
 
 ![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
 
+Class distribution.
 To better understand the data we can check how many examples of data per class there is.
 <br>
 
 ![Number of Instances](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/NoI.PNG)
 
-Highlight the information about the data using describe funciton in python.
+Highlight the information about the data using describe funciton in python to see the summary of each attribute.
 ![Describe Attributes](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/attrdescr.PNG)
+
+##  Visualisation of Data
+
+Having the data imported to better analyze it and understand the meaning of it we can use various visualisations.
+
+Here we will look at 2 types of plots:
+- Univariate plot to better understand each attribute
+- Multivariate plot to better understand relationships between attributes.
+
+### Univariate Plots
+Gives clearer idea about the distribution of values between attributes.
+![Univariate](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/Univariate.PNG)
+
+Please see the histagram view on the same univariate dataset below:
+<br>
+
+![UnivariateHist](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/UnivariateHist.PNG)
+
+
+### Multivariate Plots
+Please see the relationships between variables in below graph:
+
+
+
+
 
 
 
@@ -61,3 +87,5 @@ Highlight the information about the data using describe funciton in python.
 
 - [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Iris)
 - [kaggle.com](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis)
+- https://github.com/RitRa/Project2018-iris
+- https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
