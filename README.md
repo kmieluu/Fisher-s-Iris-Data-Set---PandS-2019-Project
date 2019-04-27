@@ -37,15 +37,17 @@ The Iris data set is a database that was originally created by R.A.Fisher in 193
 
 ## Data Investigation
 
-Import required modules into Python did not come without any trouble.
-Python would not let to import Seaborn.
+Import required modules into Python.
 
 ![Modules](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/modules.PNG)
 
-After that iris data set was imported into the system.
-First 10 rows of the data set looks as below:
+Import Iris data set into python.
+
+Check first 10 rows of the data set:
 
 ![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
+
+Looking at length and width of all the data 
 
 Class distribution.
 To better understand the data we can check how many examples of data per class there is.
@@ -89,3 +91,6 @@ Please see the relationships between variables in below graph:
 - [kaggle.com](https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis)
 - https://github.com/RitRa/Project2018-iris
 - https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+- [Seaborn](https://seaborn.pydata.org/introduction.html)
+- [Conda.io](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
+- [How to make scatter plot in python - youtube](https://www.youtube.com/watch?v=TexdD7t0IKU)
