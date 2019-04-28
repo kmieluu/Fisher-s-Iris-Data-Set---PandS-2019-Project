@@ -11,6 +11,8 @@ import numpy as np
 #data visualization library based on matplotlib
 import seaborn as sns
 
+from sklearn.datasets import load_iris
+
 #Read data imported to github, folder "Input"
 csv = pd.read_csv("Input/iris_csv.csv")
 

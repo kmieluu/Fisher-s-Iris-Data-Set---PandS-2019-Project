@@ -108,7 +108,21 @@ From above table we can see that:
 * Petal width for Setosa is much smaller then Versicolor or Virginica. Virginica would always have longer Petal then even largest Sepal. Small population of Virginica and Versicolor would have the same width of petal.
 
 
-ViolinPlot
+ViolinPlot 
+
+Shows the distribution of quantitative data across several levels of one (or more) categorical variables (width and length) such that those distributions can be compared. We use module Seaborn.
+
+
+![ViolinLength](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/ViolinLength.PNG)
+
+* Smallest discrepancies in lengths presents petal length in Iris setosa. We can assume the length will vary here between 1-2 cm. 
+* Highest discrepancies in length we see on sepal length for iris virginica. In scale can be anything between 4-8cm.
+
+
+![ViolinWidth](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/ViolinWidth.PNG)
+
+* Sepal width looks to be most common category for all classes. 
+* Petal width vary less for iris setosa and most for iris virginica
 
 
 ## References
@@ -123,4 +137,4 @@ ViolinPlot
 - [ViolinPlots](http://seaborn.pydata.org/generated/seaborn.violinplot.html#seaborn.violinplot)
 - [Numerical Python](https://www.tutorialspoint.com/numpy)
 - https://backtobazics.com/python/pandas-describe-method-dataframe-summary/
-
+- [ScatterPlot](https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_scatter.html)
