@@ -33,10 +33,10 @@ This dataset became a typical test case for many statistical classification tech
 
 
 ## Attribute Information: 
-    •	*The length of sepals [cm]*
-    •	*The width of sepals [cm]*
-    •	*The length of petals [cm]*
-    •	*The width of petals [cm]*
+    •	The length of sepals [cm]
+    •	The width of sepals [cm]
+    •	The length of petals [cm]
+    •	The width of petals [cm]
 
 ## Data Investigation
 
