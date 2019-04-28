@@ -126,9 +126,14 @@ Shows the distribution of quantitative data across several levels of one (or mor
 * Sepal width looks to be most common category for all classes. 
 * Petal width vary less for iris setosa and most for iris virginica
 
-ScatterPlot
+Pairplot vs. ScatterPlot
 
-![ScatterPlot](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/pairplot.PNG)
+Interactions between classes on graph are well shown using Pairplot via Seaborn. 
+![PairPlot](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/pairplot.PNG)
+
+Seaborn Scatter is another way to present spectrum of width and length of each class with each other.
+![SeabornScatter](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seabornscatter.PNG)
+
 
 
 ## References
