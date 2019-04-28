@@ -1,15 +1,23 @@
-import matplotlib.pyplot as plt 
+# Agata Chmielowiec, 2019
+# Programming and scripting 2019 project
+
+#Modules that will be used in this project are:
+#In order to create graphs
+import matplotlib.pyplot as plt
+#For data analysis 
 import pandas as pd
+#Numerical Python
 import numpy as np 
+#data visualization library based on matplotlib
 import seaborn as sns
 
-#Read data from iris_csv.csv
+#Read data imported to github, folder "Input"
 csv = pd.read_csv("Input/iris_csv.csv")
 
-#Show the first 10 lines of the dataset
+#Show the first 10 lines of data imported(iris_csv.csv)
 print(csv.head(10))
 
-#show how many expositions per class
+#Each flower was measured 50 times.
 print(csv.groupby('class').size())
 
 #point location of categories
@@ -17,11 +25,12 @@ setosa = csv[0:50]
 versicolor = csv[50:100]
 virginica = csv[100:150]
 
-print('----------------------Iris Setosa Values----------------------')
-print(setosa.describe())
-print('----------------------Iris Versicolor Values----------------------')
+
+print('Iris Setosa Values')
+print(setosa.describe()) 
+print('Iris Versicolor Values')
 print(versicolor.describe())
-print('----------------------Iris Virginica Values----------------------')
+print('Iris Virginica Values')
 print(virginica.describe())
 
 summary = csv.describe()
@@ -68,10 +77,41 @@ plt.xlabel('Petal Length [cm]')
 plt.ylabel('Quantity')
 plt.show()
 
-![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
+sns.set(style='darkgrid')
+sns.distplot(setosa['sepalwidth'], color='b', kde=False, label='Setosa')
+sns.distplot(versicolor['sepalwidth'], color='y', kde=False, label='Versicolor')
+sns.distplot(virginica['sepalwidth'], color='g', kde=False, label='Virginica')
+plt.legend()
+plt.title('Quantity of Sepal Width')
+plt.xlabel('Sepal Width (cm)')  
+plt.ylabel('Quantity')
+plt.show()
 
 
+sns.set(style='darkgrid')
+sns.distplot(setosa['petalwidth'], color='b', kde=False, label='Setosa')
+sns.distplot(versicolor['petalwidth'], color='y', kde=False, label='Versicolor')
+sns.distplot(virginica['petalwidth'], color='g', kde=False, label='Virginica')
+plt.legend()
+plt.title('Quantity of Petal Width')
+plt.xlabel('Petal Width [cm]')  
+plt.ylabel('Quantity')
+plt.show()
 
+#ViolinPlot
+sns.set(style="white")
+sns.violinplot(x='class', y='sepallength', linewidth = 3, palette=['y', 'b', 'r'], data=csv, inner=None)
+sns.swarmplot(x='class', y='sepallength', data=csv, color='green', edgecolor='yellow', size=4)
+plt.title('Density Plot of Species Sepal Width')
+plt.ylabel('Sepal Width (cm)')
+plt.show()
+
+sns.set(style="white")
+sns.violinplot(x='class', y='petallength', linewidth = 3, palette=['y', 'b', 'r'], data=csv, inner=None)
+sns.swarmplot(x='class', y='petallength', data=csv, color='green', edgecolor='yellow', size=4)
+plt.title('Density Plot of Species Petal Width')
+plt.ylabel('Petal Width (cm)')
+plt.show()
 #Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
 # and the virginica data points in blue.
 # Setosa, versicolor, and virginica are the three possible values of the species variable. 

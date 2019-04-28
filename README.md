@@ -47,7 +47,8 @@ Check first 10 rows of the data set:
 
 ![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
 
-Looking at length and width of all the data we can see 150 dots. Petal is smaller then settal and more condensed. Sepal can vary more.
+Length and width of all the data.
+Petal is smaller then settal and more condensed. Sepal can vary more.
 
 ![all data](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/petalsetallengthgraph.png)
 
@@ -59,6 +60,17 @@ To better understand the data we can check how many examples of data per class t
 
 Highlight the information about the data using describe funciton in python to see the summary of each attribute.
 ![Describe Attributes](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/attrdescr.PNG)
+
+Below is information about each of species. 
+We can interprete what's below as follows:
+Iris Setosa sepal length 
+* measured 50 times
+* on average the length was about 5cm long (with minimum value 4.3cm and maximum 5.8cm)
+* standard deviation of the observation is 35.25%
+* Given percentile values (quantile 1, 2 and 3 respectively) of all numeric values in a column (or series)
+
+
+
 
 ##  Visualisation of Data
 
@@ -82,10 +94,7 @@ Please see the histagram view on the same univariate dataset below:
 Please see the relationships between variables in below graph:
 ![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
 
-
-
-
-
+ViolinPlot
 
 
 ## References
@@ -97,3 +106,7 @@ Please see the relationships between variables in below graph:
 - [Seaborn](https://seaborn.pydata.org/introduction.html)
 - [Conda.io](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
 - [How to make scatter plot in python - youtube](https://www.youtube.com/watch?v=TexdD7t0IKU)
+- [ViolinPlots](http://seaborn.pydata.org/generated/seaborn.violinplot.html#seaborn.violinplot)
+- [Numerical Python](https://www.tutorialspoint.com/numpy)
+- https://backtobazics.com/python/pandas-describe-method-dataframe-summary/
+
