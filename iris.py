@@ -102,16 +102,31 @@ plt.show()
 sns.set(style="white")
 sns.violinplot(x='class', y='sepallength', linewidth = 3, palette=['y', 'b', 'r'], data=csv, inner=None)
 sns.swarmplot(x='class', y='sepallength', data=csv, color='green', edgecolor='yellow', size=4)
-plt.title('Density Plot of Species Sepal Width')
-plt.ylabel('Sepal Width (cm)')
+plt.title('Density Plot of Species Sepal Length')
+plt.ylabel('Sepal Length (cm)')
 plt.show()
 
 sns.set(style="white")
 sns.violinplot(x='class', y='petallength', linewidth = 3, palette=['y', 'b', 'r'], data=csv, inner=None)
 sns.swarmplot(x='class', y='petallength', data=csv, color='green', edgecolor='yellow', size=4)
+plt.title('Density Plot of Species Petal Length')
+plt.ylabel('Petal Length (cm)')
+plt.show()
+
+sns.set(style="dark")
+sns.violinplot(x='class', y='sepalwidth', linewidth = 5, palette=['y', 'b', 'r'], data=csv, inner=None)
+sns.swarmplot(x='class', y='sepalwidth', data=csv, color='green', edgecolor='yellow', size=4)
+plt.title('Density Plot of Species Sepal Width')
+plt.ylabel('Sepal Width (cm)')
+plt.show()
+
+sns.set(style="dark")
+sns.violinplot(x='class', y='petalwidth', linewidth = 5, palette=['y', 'b', 'r'], data=csv, inner=None)
+sns.swarmplot(x='class', y='petalwidth', data=csv, color='green', edgecolor='yellow', size=4)
 plt.title('Density Plot of Species Petal Width')
 plt.ylabel('Petal Width (cm)')
 plt.show()
+
 #Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
 # and the virginica data points in blue.
 # Setosa, versicolor, and virginica are the three possible values of the species variable. 

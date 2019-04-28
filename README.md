@@ -69,6 +69,7 @@ Iris Setosa sepal length
 * standard deviation of the observation is 35.25%
 * Given percentile values (quantile 1, 2 and 3 respectively) of all numeric values in a column (or series)
 
+![Information](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/Informationaboutdata.PNG)
 
 
 
@@ -89,10 +90,23 @@ Please see the histagram view on the same univariate dataset below:
 
 ![UnivariateHist](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/UnivariateHist.PNG)
 
+We can see lenght of petal and sepals but with no diversification between classes (type of iris).
 
 ### Multivariate Plots
 Please see the relationships between variables in below graph:
+
 ![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
+
+From above table we can see that:
+* In most cases Sepal lengths are shortest for Setosa and longest for Virginica, still there are cases where Virginica and Setosa length could be the same
+* Petal length for Setosa is much smaller then Versicolor or Virginica. Virginica would always have longer Petal then even largest Sepal. Small population of Virginica and Versicolor would have the same lenth of petal.
+
+
+![Seabornwidth](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seabornwidth.png)
+
+* Sepal width most likely are longest for Setosa and shortest for Versicolor, still there are cases where Versicolor and Setosa width could be the same. Virginica is between. 
+* Petal width for Setosa is much smaller then Versicolor or Virginica. Virginica would always have longer Petal then even largest Sepal. Small population of Virginica and Versicolor would have the same width of petal.
+
 
 ViolinPlot
 
