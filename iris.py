@@ -134,9 +134,13 @@ sns.set_style("whitegrid")
 sns.pairplot(hue='class', markers="<", data = csv, diag_kind = 'kde')
 plt.show()
 
+sns.scatterplot(x="sepallength",y="sepalwidth",hue='class',style=None,size=None,data=csv)
+plt.show()
+
+sns.scatterplot(x="petallength",y="petalwidth",hue='class',style=None,size=None,data=csv)
+plt.show()
 #ScatterPlot
 
-df = sns.load_dataset("Input/iris_csv.csv")
 
 
 

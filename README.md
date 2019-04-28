@@ -27,6 +27,8 @@ The Iris Data Set data set is showing multiple outcomes containing of variations
 
 ![KWIATKI](https://user-images.githubusercontent.com/47505151/56806631-625ec480-6824-11e9-9108-665023156900.PNG)
 
+![SepalPetal](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/sepalpetal.png)
+
 The Iris data set is a database that was originally created by R.A.Fisher in 1936 paper called *The use of multiple measurments in taxonomic problems*. It contains 3 types of Iris flowers with their multiple collection of 4 attributes.
 
 ### Attribute Information: 
@@ -123,6 +125,10 @@ Shows the distribution of quantitative data across several levels of one (or mor
 
 * Sepal width looks to be most common category for all classes. 
 * Petal width vary less for iris setosa and most for iris virginica
+
+ScatterPlot
+
+![ScatterPlot](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/pairplot.PNG)
 
 
 ## References
