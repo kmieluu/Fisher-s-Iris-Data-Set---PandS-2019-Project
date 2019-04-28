@@ -15,30 +15,29 @@
 3. Get into correct directory
 4. Run python code by typing *python iris.py*
 
+
+## *Overview*
 The Iris data set is a database that was originally created by R.A.Fisher and published in 1936 paper called *The use of multiple measurments in taxonomic problems*. It contains of 3 types of Iris flowers with their multiple collection of 4 attributes: the length and the width of the sepals and petals, presented in centimeters.
 
 This dataset became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
 
 
-## Class:
+## *Class:*
     - Iris Setosa
     - Iris Versicolour
     - Iris Virginica
-
 
 ![KWIATKI](https://user-images.githubusercontent.com/47505151/56806631-625ec480-6824-11e9-9108-665023156900.PNG)
 
 ![SepalPetal](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/sepalpetal.png)
 
-
-
-## Attribute Information: 
+## *Attribute Information:* 
     •	The length of sepals [cm]
     •	The width of sepals [cm]
     •	The length of petals [cm]
     •	The width of petals [cm]
 
-## Data Investigation
+## *Data Investigation*
 
 Import required modules into Python.
 
@@ -76,7 +75,7 @@ Iris Setosa sepal length
 
 
 
-##  Visualisation of Data
+##  *Visualisation of Data*
 
 Having the data imported to better analyze it and understand the meaning of it we can use various visualisations.
 
@@ -84,7 +83,7 @@ Here we will look at 2 types of plots:
 - Univariate plot to better understand each attribute
 - Multivariate plot to better understand relationships between attributes.
 
-### Univariate Plots
+# *Univariate Plots*
 Gives clearer idea about the distribution of values between attributes.
 ![Univariate](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/Univariate.PNG)
 
@@ -95,7 +94,7 @@ Please see the histagram view on the same univariate dataset below:
 
 We can see lenght of petal and sepals but with no diversification between classes (type of iris).
 
-### Multivariate Plots
+# *Multivariate Plots*
 Please see the relationships between variables in below graph:
 
 ![Seaborn](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seaborn.png)
