@@ -138,3 +138,4 @@ Shows the distribution of quantitative data across several levels of one (or mor
 - [Numerical Python](https://www.tutorialspoint.com/numpy)
 - https://backtobazics.com/python/pandas-describe-method-dataframe-summary/
 - [ScatterPlot](https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_scatter.html)
+- [PairPlot](https://mylearningsinaiml.wordpress.com/2018/11/21/pair-plots/)

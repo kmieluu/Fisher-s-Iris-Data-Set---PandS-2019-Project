@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np 
 #data visualization library based on matplotlib
 import seaborn as sns
-
+#for scatterplot
 from sklearn.datasets import load_iris
 
 #Read data imported to github, folder "Input"
@@ -128,6 +128,17 @@ sns.swarmplot(x='class', y='petalwidth', data=csv, color='green', edgecolor='yel
 plt.title('Density Plot of Species Petal Width')
 plt.ylabel('Petal Width (cm)')
 plt.show()
+
+#PairPlot
+sns.set_style("whitegrid")
+sns.pairplot(hue='class', markers="<", data = csv, diag_kind = 'kde')
+plt.show()
+
+#ScatterPlot
+
+df = sns.load_dataset("Input/iris_csv.csv")
+
+
 
 #Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
 # and the virginica data points in blue.
