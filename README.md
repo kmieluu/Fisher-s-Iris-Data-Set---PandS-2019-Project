@@ -4,16 +4,16 @@
 
 ## How to download this repository  
 
-    1. [Go to GitHub](https://github.com/kmieluu)
-    2. [Go into Fisher's Iris Data Set - PandS 2019 Project](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project)
-    3. Click the "Clone or download" button and select Download ZIP
+1. [Go to GitHub](https://github.com/kmieluu)
+2. [Go into Fisher's Iris Data Set - PandS 2019 Project](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project)
+3. Click the "Clone or download" button and select Download ZIP
 
 ## How to run the code
 
-    1. Make sure you have Python installed (via Anaconda for example)
-    2. Open commander
-    3. Make sure you are in the right directory
-    4. Run python code by typing iris.py
+1. Make sure you have Python installed (via Anaconda for example)
+2. Open commander
+3. Make sure you are in the right directory
+4. Run python code by typing iris.py
 
 
 The Iris Data Set data set is showing multiple outcomes containing of variations received from combinations of sepals and petals of Irises: Setosa, Versicolor and Virginica.
@@ -132,7 +132,7 @@ Interactions between classes on graph are well shown using Pairplot via Seaborn.
 ![PairPlot](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/pairplot.PNG)
 
 Seaborn Scatter is another way to present spectrum of width and length of each class with each other. 
-Getting exactly the same graph as at the begginning only with colour discretion of class.
+Getting exactly the same graph as at the begginning only with colour allowance of class.
 ![SeabornScatter](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seabornscatter.PNG)
 
 
