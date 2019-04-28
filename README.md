@@ -50,7 +50,7 @@ Check first 10 rows of the data set:
 ![Iris Data Set](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/IrisTop10.PNG)
 
 Length and width of all the data.
-Petal is smaller then settal and more condensed. Sepal can vary more.
+Petal is smaller then settal and more condensed. Sepal can vary more. This graph does not diversify between classes though.
 
 ![all data](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/petalsetallengthgraph.png)
 
@@ -64,12 +64,12 @@ Highlight the information about the data using describe funciton in python to se
 ![Describe Attributes](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/attrdescr.PNG)
 
 Below is information about each of species. 
-We can interprete what's below as follows:
-Iris Setosa sepal length 
-* measured 50 times
-* on average the length was about 5cm long (with minimum value 4.3cm and maximum 5.8cm)
-* standard deviation of the observation is 35.25%
-* Given percentile values (quantile 1, 2 and 3 respectively) of all numeric values in a column (or series)
+We can interprete what's below as follows:<br>
+**Iris Setosa sepal length** 
+* 50 examples were taken into reaserch
+* On average the length was about 5cm long (with minimum value 4.3cm and maximum 5.8cm)
+* Standard deviation of the observation is 35.25%
+* Given percentile values (quantile 1, 2 and 3 respectively) of all numeric values in sepal length column
 
 ![Information](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/Informationaboutdata.PNG)
 
@@ -85,14 +85,15 @@ Here we will look at 2 types of plots:
 
 # *Univariate Plots*
 Gives clearer idea about the distribution of values between attributes.
+Box-Whisker Plots gives you an idea about the minimum values, 1st Quartile value, median(green line), 3rd quartile value and maximum value in scale.
 ![Univariate](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/Univariate.PNG)
 
 Please see the histagram view on the same univariate dataset below:
 <br>
 
-![UnivariateHist](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/UnivariateHist.PNG)
+In the histogram there is lenght of petal and sepals but with no diversification between classes (type of iris).
 
-We can see lenght of petal and sepals but with no diversification between classes (type of iris).
+![UnivariateHist](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/UnivariateHist.PNG)
 
 # *Multivariate Plots*
 Please see the relationships between variables in below graph:
@@ -135,7 +136,10 @@ Seaborn Scatter is another way to present spectrum of width and length of each c
 Getting exactly the same graph as at the begginning only with colour allowance of class.
 ![SeabornScatter](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/seabornscatter.PNG)
 
+## *Summary*
 
+Fisher’s Iris data set project thought me how to reaserch data while maintaining the list of references that are being used. How to download the dataset and then analyse it using variaty of modules that are in pythons portfolio. The project showed me how easily and quickly data can be analysed using python. Also I got to know how to maintain GITHub so that is looks more friendly to reader. How to pull data if I make changes on web, etc. 
+Overall I feel very positive about this project and python and want to learn more about it.
 
 ## References
 
@@ -152,3 +156,4 @@ Getting exactly the same graph as at the begginning only with colour allowance o
 - [ScatterPlot](https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_scatter.html)
 - [PairPlot](https://mylearningsinaiml.wordpress.com/2018/11/21/pair-plots/)
 - [Markdown](https://guides.github.com/features/mastering-markdown/)
+

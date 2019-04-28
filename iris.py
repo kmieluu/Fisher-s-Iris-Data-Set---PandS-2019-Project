@@ -134,19 +134,12 @@ sns.set_style("whitegrid")
 sns.pairplot(hue='class', markers="<", data = csv, diag_kind = 'kde')
 plt.show()
 
+
+#ScatterPlot by Seaborn
+
 sns.scatterplot(x="sepallength",y="sepalwidth",hue='class',style=None,size=None,data=csv)
 plt.show()
 
 sns.scatterplot(x="petallength",y="petalwidth",hue='class',style=None,size=None,data=csv)
 plt.show()
-#ScatterPlot
 
-
-
-
-#Re-create the above plot, but this time plot the setosa data points in red, the versicolor data point in green,
-# and the virginica data points in blue.
-# Setosa, versicolor, and virginica are the three possible values of the species variable. 
-# Add a legend to the plot showing which species is in which colour.
-
-#Use the seaborn library to create a scatterplot matrix of all five variables.
