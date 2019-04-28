@@ -12,11 +12,12 @@
 
 1. Make sure you have Python installed (via Anaconda for example)
 2. Open commander
-3. Make sure you are in the right directory
-4. Run python code by typing iris.py
+3. Get into correct directory
+4. Run python code by typing *python iris.py*
 
+The Iris data set is a database that was originally created by R.A.Fisher and published in 1936 paper called *The use of multiple measurments in taxonomic problems*. It contains of 3 types of Iris flowers with their multiple collection of 4 attributes: the length and the width of the sepals and petals, presented in centimeters.
 
-The Iris Data Set data set is showing multiple outcomes containing of variations received from combinations of sepals and petals of Irises: Setosa, Versicolor and Virginica.
+This dataset became a typical test case for many statistical classification techniques in machine learning such as support vector machines.
 
 
 ## Class:
@@ -29,13 +30,13 @@ The Iris Data Set data set is showing multiple outcomes containing of variations
 
 ![SepalPetal](https://github.com/kmieluu/Fisher-s-Iris-Data-Set---PandS-2019-Project/blob/master/Images/sepalpetal.png)
 
-The Iris data set is a database that was originally created by R.A.Fisher in 1936 paper called *The use of multiple measurments in taxonomic problems*. It contains 3 types of Iris flowers with their multiple collection of 4 attributes.
 
-### Attribute Information: 
-    •	The length of sepals [cm]
-    •	The width of sepals [cm]
-    •	The length of petals [cm]
-    •	The width of petals [cm]
+
+## Attribute Information: 
+    •	*The length of sepals [cm]*
+    •	*The width of sepals [cm]*
+    •	*The length of petals [cm]*
+    •	*The width of petals [cm]*
 
 ## Data Investigation
 
